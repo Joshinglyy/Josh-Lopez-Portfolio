@@ -1,0 +1,46 @@
+body {
+  
+    padding: 0 60px;
+    margin: 0;
+    height: 100vh;
+    color: rgb(57, 57, 57);
+  }
+  #navbar {
+    border-right: 2px solid gainsboro;
+    left: -35px;
+    width: 20%;
+    position: fixed;
+    height: 100%;  
+  }
+  nav li {
+    list-style: none;
+    border-top: 1px solid black;
+    position: relative;
+    font-size: larger;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  } 
+  nav a {
+    color: rgb(57, 57, 57);
+    display: inline-block;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    text-decoration: none;
+  }
+  #main-header {
+    text-align: center;
+    margin-top: 10px;
+    font-size:xx-large;
+  }
+  header {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  #main-doc {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 15px
+  }
