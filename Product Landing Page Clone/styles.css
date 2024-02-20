@@ -1,0 +1,141 @@
+
+body {
+    background-color: gainsboro;
+}
+    #header {
+        margin-top: -2.5%;
+        height: 8%;
+        width: 100%;
+        vertical-align: center;
+        color: gainsboro;
+        border-style: solid;
+        border-width: 3px;
+        position: fixed;
+        background-color: gainsboro;
+    }
+    #header-img {
+        width: 20%;
+        height: 5%;
+        margin-top: 1%;
+        float: left;
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #navbar {
+        float: right;
+        width: 30%;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    #features-nav {
+        margin-right: 15%;
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+    }
+    #how_it_works-nav {
+        margin-right: 15%;
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+        text-align: justify;
+    }
+    #pricing-nav {
+        margin-right: 15%;
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+        text-align: justify;
+    }
+    #main-doc {
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        margin: 30px auto;
+    }
+    #form-section {
+        text-align: center;
+        margin-top: 10%;
+        font-size: large;
+    }
+    #email {
+        width: 20%;
+        height: 23px;
+    }
+    #submit {
+        background-color: rgb(255, 196, 0);
+        font-weight: bold;
+        font-size: medium;
+        width: 10%;
+        height: 30px;
+        margin-top: 1%;
+        }
+    #Features {
+        margin: 10% auto;
+        align-items: center;
+    }    
+    #image1, #image2, #image3 {
+        float: left;
+        height: 70px;
+        width: 80px;
+        padding: 5px;
+        margin-left: 15%;
+    }
+    #premium_materials {
+        text-indent: 50px;
+    }
+    #fast_shipping {
+        margin-top: 4%;
+        text-indent: 50px;
+    }
+    #quality_assurance {
+        margin-top: 4%;
+        text-indent: 50px;
+    }
+    #How_it_Works {
+        margin-top: 10%;
+    }
+    #Pricing {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 10%;
+    }
+    .product {
+        border: 1px solid black;
+        height: 250px;
+        width: 300px;
+    }
+    .product ol {
+        list-style-type: none;
+    }
+    #tenorPrice, #bassPrice, #valvePrice {
+        background-color: rgb(177, 177, 177);
+        width: auto;
+        height: 30px;
+        font-size: x-large;
+        font-weight: lighter;
+        padding: 5px;
+    }
+    ol li{
+        text-align: center;
+    }
+    #select_button {
+        background-color: rgb(255, 196, 0);
+        height: 30px;
+        width: 70px;
+    }
+    #footer {
+        height: 80px;
+        width: 70%;
+        margin: auto;
+        background-color: rgb(177, 177, 177);
+    }
+    footer {
+        float: right;
+        padding: 10px;
+        margin-right: 3px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Mockup</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">
+        <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        id="header-img"
+        width="100"
+        />
+
+        <nav id="navbar">
+            <ul>
+                <a class="nav-link" id="features-nav" href="#Features">Features </a>
+                
+                <a class="nav-link" id="how_it_works-nav" href="#How_it_Works">How it Works</a>
+                <a class="nav-link" id="pricing-nav" href="#Pricing">Pricing</a>
+              </ul>
+        </nav>
+    </div>
+
+    <main id="main-doc">
+        <section id="form-section">
+          <header>
+            <h2>Handcrafted, home-made masterpieces</h2>
+          </header>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                  id="email"
+                  required
+                />
+                <br />
+                <input type="submit" id="submit" value="Get Started"/>
+              </form>
+        </section>
+
+        <section id="Features">
+          <div id="premium_materials">
+            <img
+            src="https://www.metalassociates.net/images/brass-468.jpg"
+            id="image1"
+            >
+            <header>
+              <h2>Premium Materials</h2>
+            </header>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally. This
+              will inrease the longevity of your purchase.
+            </p>
+          </div>
+          <div id="fast_shipping">
+            <img
+            src="https://www.creativefabrica.com/wp-content/uploads/2021/11/19/Fast-delivery-icon-Graphics-20437535-1-1-580x386.jpg"
+            id="image2"
+            >
+            <header>
+              <h2>Fast Shipping</h2>
+            </header>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+            <div id="quality_assurance">
+            <img
+            src="https://images.unsplash.com/photo-1624957866366-b5ad9decb6b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHF1YWxpdHklMjBjb250cm9sfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60"
+            id="image3"
+            >
+            <header>
+              <h2>Quality Assurance</h2>
+            </header>
+            <p>
+              For every purchase you make, we will ensure there are no damages or
+              faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </section>
+
+        <section id="How_it_Works">
+          <center>
+            <iframe
+              id="video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </center>
+        </section>
+
+        <section id="Pricing">
+          <div class="product">
+          <header id="tenorPrice">Tenor Trombone</header>
+            <h2>$600</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button id="select_button">SELECT</button>
+          </div>
+          <div class="product">
+            <header id="bassPrice">Bass Trombone</header>
+            <h2>$900</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button id="select_button">SELECT</button>
+          </div>
+          <div class="product">
+            <header id="valvePrice">Valve Trombone</header>
+            <h2>$1200</h2>
+            <ol>
+              <li>Plays similar to a Trumpet</li>
+              <li>Great for Jazz Bands</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button id="select_button">SELECT</button>
+          </div>
+        </section>
+    </main>    
+
+  <div id="footer">
+    <footer>Privacy Terms Contact
+      <p>Copyright 2023, Original Trombones</p>
+    </footer>
+  </div>
+    
+</body>
+</html>
